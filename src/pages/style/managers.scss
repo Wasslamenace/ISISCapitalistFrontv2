@@ -1,0 +1,97 @@
+
+.manager {
+    display: grid;
+    grid-template-columns: 50% auto;
+    background-color: #EAEEF5;
+    border : solid black 2px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+    }
+
+.namemanager{
+    position : relative;
+    left : 10px;
+    top : 5px;
+    font-size: 20px;
+}
+
+.description{
+    position : relative;
+    left: 10px;
+
+
+}
+ 
+.titre {
+    font-family:'Mochiy Pop P one';
+    font-size : 20px; 
+    position : relative;
+
+}
+
+.desc{
+    font-family: 'Mochiy Pop P one';
+    padding-bottom: 50px;
+}
+
+.prix3 {
+    position:relative;
+    left: 200px;
+    top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#308efe ;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.prix3 h1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prix3 h1:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.prix3:hover h1 {
+  padding-right: 25px;
+}
+
+.prix3:hover h1:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.prix3 h1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.prix3 h1:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
