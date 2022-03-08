@@ -12,24 +12,50 @@
 .product {
         display: grid;
         grid-template-columns: 50% auto;
-        background-color: #EAEEF5;
+        background-image: url("../ressources/UCL.jpg");
         border : solid black 2px;
         margin-right: 10px;
         margin-bottom: 5px;
         margin-top: 3px;
+        background-position: center;
+        }
+
+.product3 {
+        display: grid;
+        grid-template-columns: 50% auto;
+        background-image: url("../ressources/Legend.jpg");
+        border : solid black 2px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        margin-top: 3px;
+        background-position: center;
         }
 
 .nameprod{
     position: relative;
     top : 5px;
     left : 5px;
+    color : #EAEEF5;
     
 }
 
+.nameprod2{
+  position: relative;
+  top : 5px;
+  left : 5px;
+  color : black;
+  
+}
+
 .product2{
-    display: grid;
-    grid-template-columns: 50% auto;
-    background-color: green;
+  display: grid;
+  grid-template-columns: 50% auto;
+  background-image: url("../ressources/UEL.jpg");
+  background-position: center;
+  border : solid black 2px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
 
 .button {
@@ -96,9 +122,19 @@
     bottom: 5px;
     left : 5px;
     font-size : 10px;
+    color : #EAEEF5;
+  }
+
+  .description2{
+    position : relative;
+    bottom: 5px;
+    left : 5px;
+    font-size : 10px;
+    color : black;
 
 
   }
+
   .prix {
       position:relative;
       left: 120px;

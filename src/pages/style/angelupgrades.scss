@@ -1,18 +1,18 @@
-
-.manager {
+.aupgrade {
     display: grid;
     grid-template-columns: 50% auto;
-    background-image: url("../ressources/manager.jpg");
+    background-image: url("../ressources/dollar.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-color: #EAEEF5;
     border : solid black 2px;
+    padding-bottom: 20px;
     margin-right: 10px;
     margin-bottom: 5px;
     
     }
 
-.namemanager{
+.nameaupgrade{
     position : relative;
     left : 10px;
     top : 5px;
@@ -39,9 +39,9 @@
     padding-bottom: 50px;
 }
 
-.prix3 {
+.prix4 {
     position:relative;
-    left: 50px;
+    left: -100px;
     top: 10px;
   display: inline-block;
   border-radius: 4px;
@@ -49,22 +49,22 @@
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   padding: 5px;
-  width: 120px;
+  width: 80px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 0px;
 }
 
-.prix3 h1 {
+.prix4 h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.prix3 h1:after {
+.prix4 h1:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -73,25 +73,25 @@
   transition: 0.5s;
 }
 
-.prix3:hover h1 {
+.prix4:hover h1 {
   padding-right: 25px;
 }
 
-.prix3:hover h1:after {
+.prix4:hover h1:after {
   opacity: 1;
   right: 0;
 }
 
 
 
-.prix3 h1 {
+.prix4 h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.prix3 h1:after {
+.prix4 h1:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;

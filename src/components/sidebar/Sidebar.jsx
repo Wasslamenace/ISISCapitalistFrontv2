@@ -3,11 +3,18 @@ import { Link, useLocation } from 'react-router-dom';
 import './sidebar.scss';
 
 const sidebarNavItems = [
+
     {
-        display: 'Unlocks',
+        display: 'Home',
         icon: <i className='bx bx-football'></i>,
         to: '/',
         section: ''
+    },
+    {
+        display: 'Unlocks',
+        icon: <i className='bx bx-lock-open-alt'></i>,
+        to: '/unlocks',
+        section: 'unlocks'
     },
     {
         display: 'Cash Upgrades',
@@ -26,12 +33,6 @@ const sidebarNavItems = [
         icon: <i className='bx bx-user'></i>,
         to: '/managers',
         section: 'managers'
-    },
-    {
-        display: 'Investors',
-        icon: <i className='bx bx-dollar'></i>,
-        to: '/investors',
-        section: 'investors'
     },
 ]
 

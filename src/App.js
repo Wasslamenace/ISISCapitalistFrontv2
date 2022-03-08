@@ -6,7 +6,7 @@ import Blank from './pages/Blank';
 import Managers from './pages/Managers';
 import Cashupgrades from './pages/Cashupgrades';
 import Angelupgrades from './pages/Angelupgrades';
-import Investors from './pages/Investors';
+import Unlocks from './pages/Unlocks';
 
 function App() {
     return (
@@ -14,10 +14,10 @@ function App() {
             <Routes>
                 <Route path='/' element={<AppLayout />}>
                     <Route index element={<Blank />} />
+                    <Route path='/unlocks' element={<Unlocks />} />
                     <Route path='/cashupgrades' element={<Cashupgrades />} />
                     <Route path='/angelupgrades' element={<Angelupgrades />} />
                     <Route path='/managers' element={<Managers />} />
-                    <Route path='/investors' element={<Investors />} />
                 </Route>
             </Routes>
         </BrowserRouter>
