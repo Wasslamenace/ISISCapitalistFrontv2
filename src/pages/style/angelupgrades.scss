@@ -1,10 +1,10 @@
 .aupgrade {
     display: grid;
     grid-template-columns: 50% auto;
-    background-image: url("../ressources/dollar.jpg");
+    background-image: url("../ressources/ange.jpg");
     background-repeat: no-repeat;
     background-position: right;
-    background-color: #EAEEF5;
+    background-color: white;
     border : solid black 2px;
     padding-bottom: 20px;
     margin-right: 10px;
@@ -39,9 +39,9 @@
     padding-bottom: 50px;
 }
 
-.prix4 {
+.prix5 {
     position:relative;
-    left: -100px;
+    left: 105px;
     top: 10px;
   display: inline-block;
   border-radius: 4px;
@@ -57,14 +57,14 @@
   margin: 0px;
 }
 
-.prix4 h1 {
+.prix5 h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.prix4 h1:after {
+.prix5 h1:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -73,25 +73,25 @@
   transition: 0.5s;
 }
 
-.prix4:hover h1 {
+.prix5:hover h1 {
   padding-right: 25px;
 }
 
-.prix4:hover h1:after {
+.prix5:hover h1:after {
   opacity: 1;
   right: 0;
 }
 
 
 
-.prix4 h1 {
+.prix5 h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.prix4 h1:after {
+.prix5 h1:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;

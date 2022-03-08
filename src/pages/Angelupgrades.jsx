@@ -7,18 +7,18 @@ const Angelupgrades = () => {
 
 <div class="aupgrade">
 <div> <span class="nameaupgrade"> Investisseur +2 %</span></div>
-<div><button class="prix4"><h1>5000</h1></button></div>
+<div><button class="prix5"><h1>5000</h1></button></div>
 </div> 
 
 
 <div class="aupgrade">
 <div> <span class="nameaupgrade"> Investisseur +3 %</span></div>
-<div><button class="prix4"><h1>10000</h1></button></div>
+<div><button class="prix5"><h1>10000</h1></button></div>
 </div> 
 
 <div class="aupgrade">
 <div> <span class="nameaupgrade"> Investisseur +4% </span></div>
-<div><button class="prix4"><h1>40000</h1></button></div>
+<div><button class="prix5"><h1>40000</h1></button></div>
 </div> 
 
 

@@ -8,6 +8,7 @@ import Cashupgrades from './pages/Cashupgrades';
 import Angelupgrades from './pages/Angelupgrades';
 import Unlocks from './pages/Unlocks';
 
+
 function App() {
     return (
         <BrowserRouter>
